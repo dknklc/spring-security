@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dekankilic-db
+    username: dekankilic
+    password: pass
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+jwt:
+  key: MIIBITANBgkqhkiG9w0BAQEFAAOCAQ4AMIIBCQKCAQBs289VlRf5B+AQ2sFpP6X0enXZQ+Xr0+hH701T1DQnK7AhFdgzKQcSMaVmQHv+AiT+ejcDOY/FyrNswa1Jw9kY8aJ3d1m+r37vdKu9oVZH7KzPPbDjPyhtz82uyCa5yUxXvIHKPPWfX7nqJYDuhPk9qm3xircaL8XU1E63gDW6n7/5xE8rtd/IqGX5uEuzwSpUKOvbsXr3ZuMuOvVmrWDz7YNeT0mFYFNtY0pCe+/VVLQ9v1YHGldEknHzFIS/YFWvALglEZ8yg5Ye/i2q1WUE8J0eOiTo0wgKzoIF43sWYuLq52WanyJuVteXKOWb5EW2pOhpCpaAJzq9gNPW98r/AgMBAAE=

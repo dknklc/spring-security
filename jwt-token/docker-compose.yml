@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql
+    restart: always
+    container_name: dekankilic-db
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: dekankilicroot
+      MYSQL_DATABASE: dekankilic-db
+      MYSQL_USER: dekankilic
+      MYSQL_PASSWORD: pass
